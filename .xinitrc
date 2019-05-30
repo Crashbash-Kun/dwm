@@ -9,5 +9,6 @@ do
     sleep 1
 done &
 
-# Start WM
+# Set Wallpaper, Start WM
+bgs -z ~/wp.jpg
 exec dwm
